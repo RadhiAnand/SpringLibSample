@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import(DateUtil.class)
+@Import({DateUtil.class})
 public @interface EnableSampleLib {
 }

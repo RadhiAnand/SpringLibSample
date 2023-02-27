@@ -11,7 +11,7 @@ repositories {
 }
 
 group = 'org.example'
-version = '1.0'
+version = '2.0'
 description = 'sample-lib-spring-boot-starter'
 java.sourceCompatibility = JavaVersion.VERSION_17
 

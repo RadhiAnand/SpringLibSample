@@ -4,6 +4,11 @@ import java.util.Date;
 
 public class DateUtil {
     public String getDate(){
-        return new Date().toString();
+        try {
+            Date date = null;
+            return date.toString();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
